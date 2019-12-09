@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../assets/css/custom.css" />
+    <script>
+     
+      if (typeof module === "object") {
+        window.module = module;
+        module = undefined;
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="../../assets/js/jquery-3.3.1.min.js"
+    ></script>
+    <script type="text/javascript" src="../../assets/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+        <div  class="container">
+                 <div class = "form-group">
+                    <label for = "Name">Name</label>
+                    <input type = "text" name = "Name" id = "notifyVal" 
+                       placeholder = "USD" class = "form-control" required>
+                 </div>               
+            
+                 
+                 <div class = "form-group">
+                    <button class = "btn btn-primary" id = "updateBtn">Add to list!</button>
+                 </div>
+
+                 <div class = "form-group">
+                    <button class = "btn btn-primary" id = "closeBtn">Close</button>
+                 </div>
+               
+
+    <script src="add.js"></script>
+  </body>
+</html>

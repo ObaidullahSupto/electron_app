@@ -1,0 +1,9 @@
+.contact-list {
+  height: 150px;
+  overflow-y: auto;
+}
+#closeBtn {
+  cursor: pointer;
+  padding: 20px;
+  text-decoration: underline;
+}
